@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul .list-item{
+    display: flex;
+    background-color: #FFFBAC;
+    list-style: none;
+    height: 80px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 1.6rem;
+    padding: 24px 25px;
+    display: inline-block;
+}
+
+li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+}
+
+li img{
+    max-width: 60px;
+    padding: 7px 0;
+}
+
+.form{
+    position: relative;
+    bottom: 48px;
+    left: 1100px;
+}
+
+form input[type=text]{
+    outline: none;
+    padding: 6px;
+    border: 2px solid #FFD495;
+    border-radius: 10px;
+}
+
+form input[type=submit]{
+    padding: 6px;
+    border: 2px solid #FFD495;
+    border-radius: 10px;
+    background-color: #FFFBAC;
+}
+
+form input[type=submit]:hover{
+    background-color: #f8f167;
+}
+
+.container{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.container p{
+    width: 70%;
+    font-size: 1.5rem;
+    margin: 3% auto;
+}
